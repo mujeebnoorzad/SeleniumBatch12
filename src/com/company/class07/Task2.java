@@ -23,8 +23,8 @@ public class Task2 {
         ajaxLink.click();
 
         WebElement text= driver.findElement(By.xpath("//div[@id='Result']"));
-        String resultText=text.getText();
-        System.out.println(resultText);
+
+        System.out.println(text.getText());
 
     }
 }
